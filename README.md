@@ -26,7 +26,7 @@ This project implements a RESTful API for managing user registrations in a new e
 
 1. **Clone the Repository**
 ```bash
-  git clone https://github.com/sathyazakkam01/ElectricSystems.git 
+  git clone https://github.com/sathyazakkam01/ElectricSystem_UserManagement.git
    ```
 ## Build the Application
 
@@ -63,7 +63,7 @@ The application will then be accessible at `http://localhost:8080`.
 To retrieve users by their surname, issue a GET request to:
 
 ```plaintext
-GET http://localhost:8080/api/users?surname=Zakkam
+GET http://localhost:8080/api/users?surname=Smith
 ```
 
 ### Add User
@@ -75,9 +75,9 @@ POST http://localhost:8080/api/users
 Content-Type: application/json
 
 {
-    "surname": "Zakkam",
-    "firstName": "Sathya",
-    "email": "sathya.zakkam@example.com"
+    "surname": "Smith",
+    "firstName": "Jane",
+    "email": "jane.smith@example.com"
 }
 ```
 
